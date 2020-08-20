@@ -39,5 +39,9 @@
   "keywords": [
     "snippet",
     "typescript"
-  ]
+  ],
+  "dependencies": {
+    "@octokit/rest": "^18.0.3",
+    "isomorphic-git": "^1.7.4"
+  }
 }
