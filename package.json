@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "postbuild": "scripts/postbuild.sh",
     "test": "NODE_ENV=test ts-node ./node_modules/.bin/jest",
     "lint": "eslint . --ext .js,.ts"
   },
@@ -32,6 +33,9 @@
     "dist",
     "README.md"
   ],
+  "bin": {
+    "git-issue": "dist/commands/issue.js"
+  },
   "keywords": [
     "snippet",
     "typescript"
