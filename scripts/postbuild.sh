@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sed -i '1i#!/usr/bin/env node' dist/commands/issue.js
-chmod +x dist/commands/issue.js
+sed -i '1i#!/usr/bin/env node' dist/cmd/issue.js
+chmod +x dist/cmd/issue.js
